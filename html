@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Web Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-600">MyBrand</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+        <a href="#services" class="text-gray-700 hover:text-blue-600">Services</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-blue-100">
+    <h2 class="text-4xl font-bold mb-4">Welcome to My Professional Website</h2>
+    <p class="text-lg text-gray-700 mb-6">We help you build stunning digital experiences.</p>
+    <a href="#contact" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Get Started</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 container mx-auto px-6">
+    <h3 class="text-3xl font-semibold mb-4 text-center">About Us</h3>
+    <p class="text-gray-700 text-center max-w-2xl mx-auto">We are a team of creative developers and designers dedicated to delivering high-quality web and mobile applications. We focus on clean code, modern designs, and smooth user experiences.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-semibold mb-12 text-center">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">Web Design</h4>
+          <p class="text-gray-600">Responsive, modern designs that work on all devices.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">Development</h4>
+          <p class="text-gray-600">Powerful and scalable web applications.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-semibold mb-2">SEO & Marketing</h4>
+          <p class="text-gray-600">Grow your brand visibility and reach.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 container mx-auto px-6">
+    <h3 class="text-3xl font-semibold mb-4 text-center">Contact Us</h3>
+    <form class="max-w-xl mx-auto mt-6 space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 border rounded" required>
+      <input type="email" placeholder="Your Email" class="w-full p-3 border rounded" required>
+      <textarea placeholder="Your Message" class="w-full p-3 border rounded h-32" required></textarea>
+      <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t mt-20 py-6 text-center text-sm text-gray-500">
+    © 2025 MyBrand. All rights reserved.
+  </footer>
+
+</body>
+</html>
